@@ -4,8 +4,10 @@ import InputElement from "../../elements/InputElement/InputElement";
 function LoginComponent() {
   return (
     <>
-      <InputElement type="text" />
-      <ButtonElement onClick={() => console.log("mrs")} />
+      <h2>Login</h2>
+      <InputElement type="text" text="enter username" />
+      <InputElement type="password" text="enter password" />
+      <ButtonElement text="login" onClick={() => console.log("mrs")} />
     </>
   );
 }

@@ -1,0 +1,5 @@
+.inputElement {
+  padding: 5px;
+  margin: 5px;
+  color: var(--color-background);
+}
